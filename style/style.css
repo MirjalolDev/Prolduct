@@ -1,0 +1,494 @@
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: rgba(24, 24, 24, 0.884);
+    background: linear-gradient(121deg, rgba(24,24,24,1) 0%, rgba(24,24,24,1) 3%, rgba(24,24,24,1) 40%, rgba(52,41,49,1) 67%, rgba(166,113,159,1) 100%);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+
+header{
+    display: flex;
+    width: 84%;
+    height: 16vh;
+    margin: 0 auto;
+}
+
+nav{
+    width: 20%;
+    height: 100%;
+    margin-left: 40px;
+}
+nav h1{
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 800;
+    line-height: 5vh;
+}
+nav:nth-child(2){
+    width: 55%;
+    margin-left: 40px;
+}
+nav:nth-child(2) ul li{
+    display: inline-block;
+    color: #fff;
+    letter-spacing: .5px;
+    font-weight: 600;
+    margin-left: 18px;
+    line-height: 10vh;
+    font-size: 16px;
+}
+
+nav ul li:hover{
+    position: relative;
+    color: #2f4fff;
+    border-bottom: 2px solid #2f4fff;
+    border-width: 100%;
+}
+
+nav:nth-child(3){
+    width: 15%;
+    margin-left: 40px;
+}
+
+.fon{
+    width: 2px;
+    height: 10vh;
+    margin: auto 40px;
+    background-color: #fff;
+}
+
+nav button{
+    color: #fff;
+    background-color: #2f4fff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+nav button:hover{
+    color: #010101;
+    background-color: #dc3522;
+    cursor: pointer;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.main{
+    width: 450px;
+    height: 350px;
+    transform: translate(150px, 100px);
+}
+.main span{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: sans-serif;
+    letter-spacing: 1px;;
+}
+.main p{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 35px;
+}
+.main .button {
+    margin-top: 25px;
+    color: #fff;
+    background-color: #2f4fff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-weight: 700;
+}
+.main .button:hover{
+    color: #010101;
+    background-color: #dc3522;
+    cursor: pointer;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button i{
+    font-size: 16px;
+}
+
+.img{
+    width: 440px;
+    height: 460px;
+    transform: translate(880px,-340px); 
+    
+}
+.img img{
+    width: 390px;
+    height: 455px;
+    margin-top: 60px;
+    margin-left: 10px;
+}   
+
+/* Ikkinchi sahifamning css boshlanish qismi */
+
+
+
+/* Obshi container qismi */
+
+.container-1{
+    width: 100%;
+    height: 150vh;
+    background:  #0e0e0e;
+}
+
+/* Container ichidagi sarlavha matni */
+
+.container-1 .content{
+    width: 60%;
+    height: 30vh;
+    margin: 0 auto;
+    transform:translateY(80px);
+}
+
+.container-1 .content h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-family: sans-serif;
+    padding-top:15px;
+}
+
+.container-1 .content p{
+    color: #c3c3c3;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    word-spacing: 2px;
+    line-height: 32px;
+}
+
+
+
+/* Container ichidagi circle ya'ni markaz qismi. Fon img qismi */
+
+.container-1 .circle{
+    width: 560px;
+    height: 560px;
+    background-color: #171717fa;
+    transform: translateY(120px);
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.container-1 .circle-1{
+    position: relative;
+    top: 70px;
+    width: 425px;
+    height: 425px;
+    background-color: #242424e8;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.container-1 .circle-1 img{
+    width: 780px;
+    height: 436px;
+    transform: translate(-165px, -3px);
+}
+
+
+/* Ma'lumotlar  */
+
+.box{
+    display: flex;
+    position: relative;
+    top: -40%;
+}
+
+.box .box-1{
+    width: 30%;
+    height: 400px;
+    /* background-color: cadetblue; */
+    position: relative;
+    left: 3%;
+}
+.box .box-1 .block{
+    width: 100%;
+    height: 110px;
+    /* background-color: chocolate; */
+    margin: 5px 0px 30px 0px;
+    display: flex;
+}
+
+.box .box-1 .block .block-1 h2{
+    position: relative;
+    top: -10px;
+    left: 15px;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: right;
+    letter-spacing: 1px;
+}
+
+.box .box-1 .block .block-1 p{
+    position: relative;
+    top: -20px;
+    left: 11px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #c3c3c3;
+    text-align: right;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.box .box-1 .block .block-2{
+    position: relative;
+    top: 22px;
+    left: 43px;
+    width: 65px;
+    height: 65px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.box .box-1 .block .block-2:hover{
+    background-color: rgb(13, 113, 196);
+    cursor: pointer;
+}
+
+.block .block-2  i{
+    position: relative;
+    left: 22px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 65px;
+}
+.box .box-1 .block .block-2 i:hover{
+    color: #161616;
+}
+
+
+/* ikkinchi qismi .box-2 */
+
+.box .box-2{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    left: 35.8%;
+    
+}
+
+.box .box-2 .block{
+    width: 100%;
+    height: 110px;
+    margin: 5px 0px 30px 0px;
+    display: flex;
+}
+
+.box .box-2 .block .block-2{
+    position: relative;
+    top: 22px;
+    width: 65px;
+    height: 65px;
+    background-color: blue;
+    border-radius: 50%;  
+}
+.box .box-2 .block .block-2:hover{
+    background-color: rgb(13, 113, 196);
+    cursor: pointer;
+}
+
+.box .box-2 .block .block-2 i{
+    position: relative;
+    left: 22px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 65px;
+}
+.box .box-2 .block .block-2 i:hover{
+    color: #161616;
+}
+
+.box .box-2 .block .block-1 h2{
+    position: relative;
+    top: -10px;
+    left: 22px; 
+    font-size: 26px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.box .box-2 .block .block-1 p{
+    position: relative;
+    top: -20px;
+    left: 22px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #c3c3c3;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 20px;  
+}
+
+
+/* Uchinchi qisim */
+
+.wraper{
+    width: 100%;
+    height: 130vh;
+    background-color: #010101;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.wraper .title{
+    width: 60%;
+    height: 30vh;
+    transform:translateY(80px);
+    margin: 0 auto;
+}
+
+.wraper .title h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-family: sans-serif;
+    padding-top:15px;
+}
+
+.wraper .title p{
+    color: #c3c3c3;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    word-spacing: 2px;
+    line-height: 32px;
+}
+
+.wraper .block{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.wraper .block .img-1{
+    align-content: space-between;
+    width: 20%;
+    /* height: 60vh; */
+    box-sizing: border-box;
+    position: relative;
+    top: 130px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.block .img-1:first-child{
+    margin-left: 90px;
+}
+
+.img-1 .png{
+    width: 100%;
+    height: 43vh;
+    background-color: #1c1c1dc5;
+    text-align: center;
+}
+
+.png img{
+    width: 123px;
+    height: 210px;
+    margin-top: 5px;
+}
+.png .io{
+    width: 275px;
+    height: 215px;
+    margin-top: 10px;
+}
+.png .two{
+    width: 175px;
+    height: 215px;
+}
+.png .four{
+    width: 235px;
+    height: 235px;
+    transform: translateY(-10px);
+}
+
+.img-1 .summa{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    background-color: #222222;
+}
+
+.summa .a30{
+    width: 65%;
+}
+.a30 h3{
+    color: #fff;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+.a30 > div{
+    color: #93cc20;
+    transform: translate(19px, -18px);
+    font-size: 18px;
+}
+.a30 .pul {
+    color: silver;position: relative;
+    top: 15px;
+}
+
+.a30 .pul .mir{
+    color: #ffffff;
+    margin-left: 38px;
+}
+
+.summa .div{
+    width: 35%;
+}
+.div > div{
+    width: 65px;
+    height: 65px;
+    background-color: blue;
+    border-radius: 50%;  
+    position: relative;
+    top: 32px;
+    left: 10px;
+}
+.div > div:hover{
+    background-color: #2f4fff;
+}
+
+.summa .div i{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+.summa .div i:hover{
+    color: #c6c6c3;
+    font-size: 26px;
+}
+
+
